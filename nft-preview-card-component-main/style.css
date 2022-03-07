@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color:  hsl(217, 54%, 11%);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit";
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.cube {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.description-container {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p{ 
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.ETH {
+    font-size: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    color: hsl(178, 100%, 50%);
+}
+
+h3 {
+    color:  hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.profile-name-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.123);
+    padding-top: 15px;
+}
+
+.man {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.678);
+    border-radius: 50%;
+}
+
+.e-container {
+    display: flex;
+    gap: 5px ;
+}
+
+.clock-container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+span {
+    color: rgba(255, 255, 255, 0.822);
+}
